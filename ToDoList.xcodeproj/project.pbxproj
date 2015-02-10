@@ -13,8 +13,8 @@
 		656D7F501A8950CB001859C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656D7F4F1A8950CB001859C8 /* Images.xcassets */; };
 		656D7F531A8950CB001859C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656D7F511A8950CB001859C8 /* LaunchScreen.xib */; };
 		656D7F5F1A8950CB001859C8 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656D7F5E1A8950CB001859C8 /* ToDoListTests.m */; };
-		65DD52D01A89C2BA00BA362E /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD52CF1A89C2BA00BA362E /* AddToDoItemViewController.m */; };
 		65DD52D31A89C59A00BA362E /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD52D21A89C59A00BA362E /* ToDoListTableViewController.m */; };
+		65DD52D61A89D85900BA362E /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD52D51A89D85900BA362E /* AddToDoItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,10 @@
 		656D7F581A8950CB001859C8 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656D7F5D1A8950CB001859C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656D7F5E1A8950CB001859C8 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
-		65DD52CE1A89C2BA00BA362E /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddToDoItemViewController.h; path = ../AddToDoItemViewController.h; sourceTree = "<group>"; };
-		65DD52CF1A89C2BA00BA362E /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddToDoItemViewController.m; path = ../AddToDoItemViewController.m; sourceTree = "<group>"; };
 		65DD52D11A89C59A00BA362E /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		65DD52D21A89C59A00BA362E /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		65DD52D41A89D85900BA362E /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		65DD52D51A89D85900BA362E /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,8 @@
 		656D7F361A8950CB001859C8 = {
 			isa = PBXGroup;
 			children = (
+				65DD52D41A89D85900BA362E /* AddToDoItemViewController.h */,
+				65DD52D51A89D85900BA362E /* AddToDoItemViewController.m */,
 				656D7F411A8950CB001859C8 /* ToDoList */,
 				656D7F5B1A8950CB001859C8 /* ToDoListTests */,
 				656D7F401A8950CB001859C8 /* Products */,
@@ -84,8 +86,6 @@
 		656D7F411A8950CB001859C8 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				65DD52CE1A89C2BA00BA362E /* AddToDoItemViewController.h */,
-				65DD52CF1A89C2BA00BA362E /* AddToDoItemViewController.m */,
 				656D7F461A8950CB001859C8 /* AppDelegate.h */,
 				656D7F471A8950CB001859C8 /* AppDelegate.m */,
 				656D7F4C1A8950CB001859C8 /* Main.storyboard */,
@@ -227,7 +227,7 @@
 				656D7F481A8950CB001859C8 /* AppDelegate.m in Sources */,
 				65DD52D31A89C59A00BA362E /* ToDoListTableViewController.m in Sources */,
 				656D7F451A8950CB001859C8 /* main.m in Sources */,
-				65DD52D01A89C2BA00BA362E /* AddToDoItemViewController.m in Sources */,
+				65DD52D61A89D85900BA362E /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
